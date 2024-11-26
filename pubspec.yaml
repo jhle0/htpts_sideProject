@@ -1,0 +1,121 @@
+name: htpts_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^3.0.1
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+  http: ^1.2.2
+  dio: ^5.0.0
+  share_plus: ^10.1.2
+  # esys_flutter_share: ^1.0.2
+  path_provider: ^2.1.5
+
+  kakao_flutter_sdk: ^1.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      # - assets/hh.png
+      - assets/images/htpts_icon.png
+      - assets/images/htpts_icon2.png
+      - assets/images/htpts_ex_image1.jpg
+      - assets/images/htpts_ex_image2.png
+      - assets/images/I.png
+      - assets/images/htp.png
+      - assets/images/house.png
+      - assets/images/tree.png
+      - assets/images/person.png
+
+      - assets/icons/cloud.png
+      - assets/icons/door.png
+      - assets/icons/fence.png
+      - assets/icons/flower.png
+      - assets/icons/forest.png
+      - assets/icons/fruit.png
+      - assets/icons/gul.png
+      - assets/icons/house.png
+      - assets/icons/leave.png
+      - assets/icons/moon.png
+      - assets/icons/mountain.png
+      - assets/icons/person.png
+      - assets/icons/pond.png
+      - assets/icons/roof.png
+      - assets/icons/smoke.png
+      - assets/icons/stars.png
+      - assets/icons/sun.png
+      - assets/icons/survey.png
+      - assets/icons/tree.png
+      - assets/icons/window.png
+
+      # - assets/icons2/cloud2.png
+      # - assets/icons2/hh.png
+      # - assets/icons2/door2.png
+      # - assets/icons2/fence2.png
+      # - assets/icons2/flower2.png
+      # - assets/icons2/forest2.png
+      # - assets/icons2/fruit2.png
+      # - assets/icons2/gul2.png
+      # - assets/icons2/leaf2.png
+      # - assets/icons2/moon2.png
+      # - assets/icons2/mountain2.png
+      # - assets/icons2/person2.png
+      # - assets/icons2/pound2.png
+      # - assets/icons2/roof2.png
+      # - assets/icons2/smoke2.png
+      # - assets/icons2/star2.png
+      # - assets/icons2/sun2.png
+      # # - assets/icons/survey2.png
+      # - assets/icons2/tree2.png
+      # - assets/icons2/window2.png
+
+  fonts:
+    - family: Amaranth
+      fonts:
+        - asset: assets/fonts/Amaranth-Regular.ttf
+        - asset: assets/fonts/Amaranth-Bold.ttf
+          weight: 700
